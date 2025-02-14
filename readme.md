@@ -18,7 +18,7 @@
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ... (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
+- [ ] ... Datastruktur funktional mein Programm in Hintergrund machen
 - [ ] ... Die grafik fertigstellen
 - [ ] ... Pingpong, Tetris, T rex runner programmieren
 - [ ] ... weitere Planung
