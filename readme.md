@@ -4,24 +4,24 @@
 
 ## Grob-Planung
 
-1. Wo stehen Sie mit Ihren Noten? In welchen Modulen waren Sie besonders stark; in welchen sind die ungenügend? Welche davon sind besonders wichtig?
+1. Ich war bis jetzt in jedem Modul gut von den Noten her eigentlich. Ausser bei dem gerade 164 habe ich bisschen Probleme wegen dem Projekt. Sonst ist eigentlich gut.
 2. Was wäre ein geeignetes Projekt für diese LP4? Können Sie mit diesem Projekt zeigen, wie Sie sich selbständig in eine Problemstellung einarbeiten können und eine überzeugende Lösung programmieren können?
 
 ## 14.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ...
-- [ ] ...
+- [ ] ... Spielparadies grafik gestalten 
+- [ ] ... Planen vom Projekt weiterhin
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich mit Amar und Navid versucht erst Schach zu machen danach haben wir Mensch ärgere dich nicht versucht und da es zu lange ging wollten wir Spielparadies machen mit mehreren Spielen die man auswählen könnte.
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
 - [ ] ... (dieses AP sollte offline, also ohne Laptop zu bearbeiten sein)
-- [ ] ...
-- [ ] ...
-- [ ] ...
+- [ ] ... Die grafik fertigstellen
+- [ ] ... Pingpong, Tetris, T rex runner programmieren
+- [ ] ... weitere Planung
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
