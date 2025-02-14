@@ -18,10 +18,10 @@
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ... Datastruktur funktional mein Programm in Hintergrund machen
-- [ ] ... Die grafik fertigstellen
+- [ ] ... Plan zeichnen ( für strukturiertes Vorgehen)
+- [ ] ... entscheiden welches spiel programmieren
+- [ ] ... Willkommen seite verschönern
 - [ ] ... Pingpong, Tetris, T rex runner programmieren
-- [ ] ... weitere Planung
 
 ✍️ Heute habe ich... (50-100 Wörter)
 
