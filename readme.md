@@ -23,11 +23,15 @@
 - [ ] ... Willkommen seite verschönern
 - [ ] ... Pingpong, Tetris, T rex runner programmieren
 
-✍️ Heute habe ich... (50-100 Wörter)
+✍️ Heute habe ich etwas anderes ausgewählt und nämlich snake io ähnlich und habe damit angefangen zu programmieren bis jetzt geht es ganz gut und weiterhin sehen wir dann. Es hat auch spass gemacht eigentlich.
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 28.2: Kern-Funktionalität
+- [ ] Planen von Snake weiter
+- [ ] Beginnen mit dem weiter programmieren von Snake
+- [ ] Vielleicht verbessern was nicht gut ist
+- [ ] Weitere Planung des Projekts
 
 ## 7.3: Kern-Funktionalität
 
