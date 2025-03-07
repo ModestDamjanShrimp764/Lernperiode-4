@@ -32,7 +32,7 @@
             this.START = new System.Windows.Forms.Button();
             this.SNAP = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtScore = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.gametimer = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -68,15 +68,15 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.UpdatePictureBoxGraphics);
             // 
-            // label1
+            // txtScore
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(602, 180);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 20);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Score: 0";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.txtScore.AutoSize = true;
+            this.txtScore.Location = new System.Drawing.Point(602, 180);
+            this.txtScore.Name = "txtScore";
+            this.txtScore.Size = new System.Drawing.Size(68, 20);
+            this.txtScore.TabIndex = 3;
+            this.txtScore.Text = "Score: 0";
+            this.txtScore.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -97,7 +97,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 708);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtScore);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.SNAP);
             this.Controls.Add(this.START);
@@ -117,7 +117,7 @@
         private System.Windows.Forms.Button START;
         private System.Windows.Forms.Button SNAP;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtScore;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer gametimer;
     }
