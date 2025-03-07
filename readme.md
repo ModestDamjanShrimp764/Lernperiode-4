@@ -10,7 +10,7 @@
 ## 14.2: Explorativer Wegwerf-Prototyp
 
 - [x] ... Spielparadies grafik gestalten 
-- [ ] ... Planen vom Projekt weiterhin
+- [x] ... Planen vom Projekt weiterhin
 
 ✍️ Heute habe ich mit Amar und Navid versucht erst Schach zu machen danach haben wir Mensch ärgere dich nicht versucht und da es zu lange ging wollten wir Spielparadies machen mit mehreren Spielen die man auswählen könnte.
 
@@ -18,28 +18,28 @@
 
 ## 21.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ... Plan zeichnen ( für strukturiertes Vorgehen)
-- [ ] ... entscheiden welches spiel programmieren
-- [ ] ... Willkommen seite verschönern
-- [ ] ... Pingpong, Tetris, T rex runner programmieren
+- [x] ... Plan zeichnen ( für strukturiertes Vorgehen)
+- [x] ... entscheiden welches spiel programmieren
+- [x] ... Willkommen seite verschönern
+- [x] ... Pingpong, Tetris, T rex runner programmieren
 
 ✍️ Heute habe ich etwas anderes ausgewählt und nämlich snake io ähnlich und habe damit angefangen zu programmieren bis jetzt geht es ganz gut und weiterhin sehen wir dann. Es hat auch spass gemacht eigentlich.
 
 ☝️ Vergessen Sie nicht, bis einen ersten Code auf github hochzuladen
 
 ## 28.2: Kern-Funktionalität
-- [ ] Planen von Snake weiter
-- [ ] Beginnen mit dem weiter programmieren von Snake
-- [ ] Vielleicht verbessern was nicht gut ist
-- [ ] Weitere Planung des Projekts
+- [x] Planen von Snake weiter
+- [x] Beginnen mit dem weiter programmieren von Snake
+- [x] Vielleicht verbessern was nicht gut ist
+- [x] Weitere Planung des Projekts
 
 Heute habe ich einen Studentenverwalter gemacht aber normal so ohne winforms weil ich das nicht vergessen wollte. Es dauerte länger, da ich es verlernt habe hahaha aber geht gut.
 
 ## 7.3: Kern-Funktionalität
-- [ ] Snake weiterprogrammieren
-- [ ] Weiterplanen
-- [ ] Vielleicht was anderes wieder mit c#
-- [ ] weitere planung
+- [x] Snake weiterprogrammieren
+- [x] Weiterplanen
+- [x] Vielleicht was anderes wieder mit c#
+- [x] weitere planung
 
 Heute habe ich das Tutorial weitergeschaut und weiterprogrammiert aber ich regte mich bisschen auf wegen den Fehler. Ich habe versucht mit Internet zu korrigieren aber es geht leider immernoch nicht. Ich habe noch Lerngespräch gehabt mit Herr Colic und er hat mir paar Dinge erklärt. Ich bin heute froh das es bald fertig ist aber irgendwie auch nicht wegen den Fehlern.
 
