@@ -9,7 +9,7 @@
 
 ## 14.2: Explorativer Wegwerf-Prototyp
 
-- [ ] ... Spielparadies grafik gestalten 
+- [x] ... Spielparadies grafik gestalten 
 - [ ] ... Planen vom Projekt weiterhin
 
 ✍️ Heute habe ich mit Amar und Navid versucht erst Schach zu machen danach haben wir Mensch ärgere dich nicht versucht und da es zu lange ging wollten wir Spielparadies machen mit mehreren Spielen die man auswählen könnte.
