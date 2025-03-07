@@ -33,7 +33,7 @@
 - [ ] Vielleicht verbessern was nicht gut ist
 - [ ] Weitere Planung des Projekts
 
-      Heute habe ich einen Studentenverwalter gemacht aber normal so ohne winforms weil ich das nicht vergessen wollte. Es dauerte länger, da ich es verlernt habe hahaha aber geht gut.
+Heute habe ich einen Studentenverwalter gemacht aber normal so ohne winforms weil ich das nicht vergessen wollte. Es dauerte länger, da ich es verlernt habe hahaha aber geht gut.
 
 ## 7.3: Kern-Funktionalität
 - [ ] Snake weiterprogrammieren
