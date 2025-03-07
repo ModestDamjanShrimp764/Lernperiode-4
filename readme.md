@@ -39,9 +39,16 @@ Heute habe ich einen Studentenverwalter gemacht aber normal so ohne winforms wei
 - [ ] Snake weiterprogrammieren
 - [ ] Weiterplanen
 - [ ] Vielleicht was anderes wieder mit c#
-- [ ] weitere planung 
+- [ ] weitere planung
+
+Heute habe ich das Tutorial weitergeschaut und weiterprogrammiert aber ich regte mich bisschen auf wegen den Fehler. Ich habe versucht mit Internet zu korrigieren aber es geht leider immernoch nicht. Ich habe noch Lerngespräch gehabt mit Herr Colic und er hat mir paar Dinge erklärt. Ich bin heute froh das es bald fertig ist aber irgendwie auch nicht wegen den Fehlern.
 
 ## 14.3: Architektur ausbauen
+- [ ] Fehlerhafte Tasteneingaben korrigieren sodass die Schlange sich in alle Richtungen bewegt und nicht nur links rechts.
+- [ ] Sicherstellen, dass die Schlange nicht in sich selbst oder aus dem Spielfeld läuft und auch stirbt wenn sie in eine Wand reinläuft.
+- [ ] Farben, Größe und Darstellung der Schlange und des Essens anpassen.
+- [ ] Den Highscore dauerhaft speichern und nach jedem Spiel anzeigen.
+
 
 ## 21.3: Architektur ausbauen
 
