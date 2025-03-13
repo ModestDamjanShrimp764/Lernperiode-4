@@ -44,13 +44,17 @@ Heute habe ich einen Studentenverwalter gemacht aber normal so ohne winforms wei
 Heute habe ich das Tutorial weitergeschaut und weiterprogrammiert aber ich regte mich bisschen auf wegen den Fehler. Ich habe versucht mit Internet zu korrigieren aber es geht leider immernoch nicht. Ich habe noch Lerngespräch gehabt mit Herr Colic und er hat mir paar Dinge erklärt. Ich bin heute froh das es bald fertig ist aber irgendwie auch nicht wegen den Fehlern.
 
 ## 14.3: Architektur ausbauen
-- [ ] Fehlerhafte Tasteneingaben korrigieren sodass die Schlange sich in alle Richtungen bewegt und nicht nur links rechts.
-- [ ] Sicherstellen, dass die Schlange nicht in sich selbst oder aus dem Spielfeld läuft und auch stirbt wenn sie in eine Wand reinläuft.
-- [ ] Farben, Größe und Darstellung der Schlange und des Essens anpassen.
-- [ ] Den Highscore dauerhaft speichern und nach jedem Spiel anzeigen.
-
+- [x] Fehlerhafte Tasteneingaben korrigieren sodass die Schlange sich in alle Richtungen bewegt und nicht nur links rechts.
+- [x] Sicherstellen, dass die Schlange nicht in sich selbst oder aus dem Spielfeld läuft und auch stirbt wenn sie in eine Wand reinläuft.
+- [x] Farben, Größe und Darstellung der Schlange und des Essens anpassen.
+- [x] Den Highscore dauerhaft speichern und nach jedem Spiel anzeigen.
+Ich habe es am Donnerstag gemacht und versucht die fehler zu korrigeren habe es letztendlch geschafft mit youtube bisschen und so es geht bei meinem visual studio 2022 gerade. Ich habe auch programmiert also den code meistens direkt geändert wie für das nicht in wand hineinlaufen für farbe grösse und darstellung habe ich versucht aber kam nicht so gut raus auch das der score nach jedem spiel gespeichert wird habe ich auch versucht zu machen.
 
 ## 21.3: Architektur ausbauen
+[ ] Menü hinzufügen (Start, Anleitung, Beenden).
+[ ] Hindernisse ins Spielfeld einbauen die die schlange töten könnten (Game Over bei Kollision).
+[ ] Spezielle Früchte wie goldener apfel oder die schlange danach grösser (z. B. Goldene Frucht mit mehr Punkten)
+[ ] WASD-Steuerung ergänzen neben den Pfeiltasten noch W,A,S,D benutzen können und weiteres Planen der pakete
 
 ## 28.3: Auspolieren
 
