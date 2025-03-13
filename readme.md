@@ -48,6 +48,8 @@ Heute habe ich das Tutorial weitergeschaut und weiterprogrammiert aber ich regte
 - [x] Sicherstellen, dass die Schlange nicht in sich selbst oder aus dem Spielfeld läuft und auch stirbt wenn sie in eine Wand reinläuft.
 - [x] Farben, Größe und Darstellung der Schlange und des Essens anpassen.
 - [x] Den Highscore dauerhaft speichern und nach jedem Spiel anzeigen.
+
+
 Ich habe es am Donnerstag gemacht und versucht die fehler zu korrigeren habe es letztendlch geschafft mit youtube bisschen und so es geht bei meinem visual studio 2022 gerade. Ich habe auch programmiert also den code meistens direkt geändert wie für das nicht in wand hineinlaufen für farbe grösse und darstellung habe ich versucht aber kam nicht so gut raus auch das der score nach jedem spiel gespeichert wird habe ich auch versucht zu machen.
 
 ## 21.3: Architektur ausbauen
