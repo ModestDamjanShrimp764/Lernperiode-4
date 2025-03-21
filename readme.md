@@ -53,12 +53,18 @@ Heute habe ich das Tutorial weitergeschaut und weiterprogrammiert aber ich regte
 Ich habe es am Donnerstag gemacht und versucht die fehler zu korrigeren habe es letztendlch geschafft mit youtube bisschen und so es geht bei meinem visual studio 2022 gerade. Ich habe auch programmiert also den code meistens direkt geändert wie für das nicht in wand hineinlaufen für farbe grösse und darstellung habe ich versucht aber kam nicht so gut raus auch das der score nach jedem spiel gespeichert wird habe ich auch versucht zu machen.
 
 ## 21.3: Architektur ausbauen
-- [ ] hinzufügen (Start, Anleitung, Beenden)
-- [ ] Hindernisse ins Spielfeld einbauen die die schlange töten könnten (Game Over bei Kollision)
-- [ ] Spezielle Früchte wie goldener apfel oder die schlange danach grösser (z. B. Goldene Frucht mit mehr Punkten)
-- [ ] WASD-Steuerung ergänzen neben den Pfeiltasten noch W,A,S,D benutzen können und weiteres Planen der pakete
+- [x] hinzufügen (Start, Anleitung, Beenden)
+- [x] Hindernisse ins Spielfeld einbauen die die schlange töten könnten (Game Over bei Kollision)
+- [x] Spezielle Früchte wie goldener apfel oder die schlange danach grösser (z. B. Goldene Frucht mit mehr Punkten)
+- [x] WASD-Steuerung ergänzen neben den Pfeiltasten noch W,A,S,D benutzen können und weiteres Planen der pakete
+
+Heute habe ich nicht mehr geschafft Start etc. zu machen. Hindernisse ging irgendwie. Spezielle Früchte ging auch nicht weil hatte Probleme. WASD Steuerung habe ich gemacht und das wars.
 
 ## 28.3: Auspolieren
+- [ ] Geschwindigkeit skalieren. Die Schlange wird mit steigendem Score schneller, um die Schwierigkeit zu erhöhen.
+- [ ] Power-Ups einbauen. Spezielle Früchte wie ein goldener Apfel, der mehr Punkte gibt oder die Schlange kurzzeitig unverwundbar macht.
+- [ ] Menü hinzufügen Start-, Pause- und Beenden-Buttons sowie eine Option zur Auswahl von Farben und Schwierigkeitsgraden und Fehler korrigeren.
+- [ ] Sound & Animationen ergänzen Essensgeräusche, Game-Over-Sound und eine Animation, wenn die Schlange wächst.
 
 ## 4.4: Auspolieren & Abschluss
 
