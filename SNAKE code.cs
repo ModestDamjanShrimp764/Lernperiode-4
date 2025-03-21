@@ -8,46 +8,51 @@ namespace SNAKE
     public partial class Form1 : Form
     {
         private List<Circle> Snake = new List<Circle>();
+        private List<Circle> obstacles = new List<Circle>(); // Hindernisse
         private Circle food = new Circle();
+        private Circle specialFood = new Circle(); // Spezialfrucht
         int MaxWidth, MaxHeight;
         int score, Highscore;
         Random rand = new Random();
-        bool goLeft, goRight, goDown, goUp;
         Timer gameTimer = new Timer();
 
         public Form1()
         {
             InitializeComponent();
             new Settings();
-            Settings.directions = "right"; // Startrichtung der Schlange
+            Settings.directions = "right";
 
             gameTimer.Interval = 100;
             gameTimer.Tick += GameTimerEvent;
+            this.KeyDown += new KeyEventHandler(KeyIsDown); // Sicherstellen, dass KeyDown registriert ist
+            GenerateObstacles(); // Hindernisse erstellen
         }
 
         private void KeyIsDown(object sender, KeyEventArgs e)
         {
 
+        
+            Console.WriteLine("Taste gedrückt: " + e.KeyCode); // Debug-Ausgabe
 
-            if (e.KeyCode == Keys.Left && Settings.directions != "right")
+            if ((e.KeyCode == Keys.Left || e.KeyCode == Keys.A) && Settings.directions != "right")
             {
-                goLeft = true;
-                goRight = goUp = goDown = false;
+                Console.WriteLine("Links gedrückt!");
+                Settings.directions = "left";
             }
-            else if (e.KeyCode == Keys.Right && Settings.directions != "left")
+            else if ((e.KeyCode == Keys.Right || e.KeyCode == Keys.D) && Settings.directions != "left")
             {
-                goRight = true;
-                goLeft = goUp = goDown = false;
+                Console.WriteLine("Rechts gedrückt!");
+                Settings.directions = "right";
             }
-            else if (e.KeyCode == Keys.Up && Settings.directions != "down")
+            else if ((e.KeyCode == Keys.Up || e.KeyCode == Keys.W) && Settings.directions != "down")
             {
-                goUp = true;
-                goLeft = goRight = goDown = false;
+                Console.WriteLine("Hoch gedrückt!");
+                Settings.directions = "up";
             }
-            else if (e.KeyCode == Keys.Down && Settings.directions != "up")
+            else if ((e.KeyCode == Keys.Down || e.KeyCode == Keys.S) && Settings.directions != "up")
             {
-                goDown = true;
-                goLeft = goRight = goUp = false;
+                Console.WriteLine("Runter gedrückt!");
+                Settings.directions = "down";
             }
         }
 
@@ -61,7 +66,6 @@ namespace SNAKE
         {
             MaxWidth = pictureBox1.Width / Settings.Width - 1;
             MaxHeight = pictureBox1.Height / Settings.Height - 1;
-
             Snake.Clear();
             START.Enabled = false;
             SNAP.Enabled = false;
@@ -77,17 +81,22 @@ namespace SNAKE
             }
 
             food = new Circle { X = rand.Next(2, MaxWidth - 1), Y = rand.Next(2, MaxHeight - 1) };
+            specialFood = new Circle { X = rand.Next(2, MaxWidth - 1), Y = rand.Next(2, MaxHeight - 1) };
+            Console.WriteLine("Timer gestartet: " + gameTimer.Enabled);
 
             gameTimer.Start();
         }
 
         private void GameTimerEvent(object sender, EventArgs e)
         {
+   
+        
+            Console.WriteLine($"Vorher: Kopf X={Snake[0].X}, Y={Snake[0].Y} | Richtung: {Settings.directions}");
+
             for (int i = Snake.Count - 1; i >= 0; i--)
             {
-                if (i == 0)
+                if (i == 0) // Kopf bewegt sich
                 {
-                    // Bewegung basierend auf der Richtung
                     switch (Settings.directions)
                     {
                         case "left": Snake[i].X--; break;
@@ -95,52 +104,69 @@ namespace SNAKE
                         case "down": Snake[i].Y++; break;
                         case "up": Snake[i].Y--; break;
                     }
-
-                    // Wrap-Around (Schlange erscheint auf der anderen Seite)
-                    if (Snake[i].X < 0) Snake[i].X = MaxWidth;
-                    if (Snake[i].X > MaxWidth) Snake[i].X = 0;
-                    if (Snake[i].Y < 0) Snake[i].Y = MaxHeight;
-                    if (Snake[i].Y > MaxHeight) Snake[i].Y = 0;
-
-                    // **Game Over bei Selbstkollision**
-                    for (int j = 1; j < Snake.Count; j++)
-                    {
-                        if (Snake[i].X == Snake[j].X && Snake[i].Y == Snake[j].Y)
-                        {
-                            GameOver();
-                            return;
-                        }
-                    }
                 }
                 else
                 {
-                    // Bewegung der Körperteile
                     Snake[i].X = Snake[i - 1].X;
                     Snake[i].Y = Snake[i - 1].Y;
                 }
             }
 
+            Console.WriteLine($"Nachher: Kopf X={Snake[0].X}, Y={Snake[0].Y}");
 
             pictureBox1.Invalidate();
         }
 
+
+
+
+
+        private void GenerateObstacles()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                obstacles.Add(new Circle { X = rand.Next(5, MaxWidth - 5), Y = rand.Next(5, MaxHeight - 5) });
+            }
+        }
+
+        private void EatSpecialFood()
+        {
+            score += 5;
+            txtScore.Text = "Score: " + score;
+
+            for (int i = 0; i < 3; i++)
+            {
+                Snake.Add(new Circle { X = Snake[Snake.Count - 1].X, Y = Snake[Snake.Count - 1].Y });
+            }
+
+            specialFood = new Circle { X = rand.Next(2, MaxWidth), Y = rand.Next(2, MaxHeight) };
+        }
+
         private void UpdatePictureBoxGraphics(object sender, PaintEventArgs e)
         {
-
+       
+        
+            Console.WriteLine("UpdatePictureBoxGraphics wird ausgeführt!"); // Debug-Ausgabe
             Graphics canvas = e.Graphics;
 
-            for (int i = 0; i < Snake.Count; i++)
+            foreach (var obs in obstacles)
             {
-                Brush snakeColor = (i == 0) ? Brushes.Blue : Brushes.Green; // Kopf = Blau, Körper = Grün
-
-                canvas.FillRectangle(snakeColor, new Rectangle(
-                    Snake[i].X * Settings.Width,
-                    Snake[i].Y * Settings.Height,
+                canvas.FillRectangle(Brushes.Brown, new Rectangle(
+                    obs.X * Settings.Width,
+                    obs.Y * Settings.Height,
                     Settings.Width, Settings.Height
                 ));
             }
 
-            // Essen als Kreis
+            foreach (var part in Snake)
+            {
+                canvas.FillRectangle(Brushes.Green, new Rectangle(
+                    part.X * Settings.Width,
+                    part.Y * Settings.Height,
+                    Settings.Width, Settings.Height
+                ));
+            }
+
             canvas.FillEllipse(Brushes.Red, new Rectangle(
                 food.X * Settings.Width,
                 food.Y * Settings.Height,
@@ -148,39 +174,6 @@ namespace SNAKE
             ));
         }
 
-
-        private void EatFood()
-        {
-            score++;
-            txtScore.Text = "Score: " + score;
-
-            Circle body = new Circle
-            {
-                X = Snake[Snake.Count - 1].X,
-                Y = Snake[Snake.Count - 1].Y
-            };
-            Snake.Add(body);
-
-            food = new Circle { X = rand.Next(2, MaxWidth - 1), Y = rand.Next(2, MaxHeight - 1) };
-        }
-
-        private void GameOver()
-        {
-
-
-            gameTimer.Stop();
-            START.Enabled = true;
-            SNAP.Enabled = true;
-
-            MessageBox.Show("Game Over! Dein Score: " + score, "Game Over", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            if (score > Properties.Settings.Default.HighScore)
-            {
-                Properties.Settings.Default.HighScore = score;
-                Properties.Settings.Default.Save();
-            }
-
-            HighScore.Text = "High Score: " + Properties.Settings.Default.HighScore;
-        }
     }
 }
+
