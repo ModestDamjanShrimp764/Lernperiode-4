@@ -53,10 +53,10 @@ Heute habe ich das Tutorial weitergeschaut und weiterprogrammiert aber ich regte
 Ich habe es am Donnerstag gemacht und versucht die fehler zu korrigeren habe es letztendlch geschafft mit youtube bisschen und so es geht bei meinem visual studio 2022 gerade. Ich habe auch programmiert also den code meistens direkt geändert wie für das nicht in wand hineinlaufen für farbe grösse und darstellung habe ich versucht aber kam nicht so gut raus auch das der score nach jedem spiel gespeichert wird habe ich auch versucht zu machen.
 
 ## 21.3: Architektur ausbauen
-[ ] Menü hinzufügen (Start, Anleitung, Beenden).
-[ ] Hindernisse ins Spielfeld einbauen die die schlange töten könnten (Game Over bei Kollision).
-[ ] Spezielle Früchte wie goldener apfel oder die schlange danach grösser (z. B. Goldene Frucht mit mehr Punkten)
-[ ] WASD-Steuerung ergänzen neben den Pfeiltasten noch W,A,S,D benutzen können und weiteres Planen der pakete
+- [ ]hinzufügen (Start, Anleitung, Beenden).
+- [ ] Hindernisse ins Spielfeld einbauen die die schlange töten könnten (Game Over bei Kollision).
+- [ ] Spezielle Früchte wie goldener apfel oder die schlange danach grösser (z. B. Goldene Frucht mit mehr Punkten)
+- [ ] WASD-Steuerung ergänzen neben den Pfeiltasten noch W,A,S,D benutzen können und weiteres Planen der pakete
 
 ## 28.3: Auspolieren
 
