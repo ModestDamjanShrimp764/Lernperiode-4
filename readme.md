@@ -69,5 +69,7 @@ Heute habe ich nicht mehr geschafft Start etc. zu machen. Hindernisse ging irgen
 Ich habe heute mit dem Lehrer angeschaut den Code um alle Probleme zu beheben, letztendlich hat  es funktioniert. Danach hatte ich die Geschwindigkeit versucht zu machen und ist auch gut geklappt. Als nächstes habe ich goldenen Apfel noc reingemacht und es funktioniert menü habe ich auch gemacht und damit die  Schlange direkt wieder reinkommt von der anderen Seite.
 
 ## 4.4: Auspolieren & Abschluss
-- [ ] 
-- [ ] 
+- [ ]  Farben der Schlange, des Spielfelds und der Früchte anpassen, um das Spiel optisch ansprechender zu machen. Optional: Animation beim Wachsen.
+- [ ]  Nach dem Game Over eine kleine Auswertung zeigen (z. B. Score, Spielzeit, Anzahl gegessener Äpfel).
+
+
