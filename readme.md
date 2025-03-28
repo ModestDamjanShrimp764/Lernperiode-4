@@ -61,10 +61,13 @@ Ich habe es am Donnerstag gemacht und versucht die fehler zu korrigeren habe es 
 Heute habe ich nicht mehr geschafft Start etc. zu machen. Hindernisse ging irgendwie. Spezielle Früchte ging auch nicht weil hatte Probleme. WASD Steuerung habe ich gemacht und das wars.
 
 ## 28.3: Auspolieren
-- [ ] Geschwindigkeit skalieren. Die Schlange wird mit steigendem Score schneller, um die Schwierigkeit zu erhöhen.
-- [ ] Power-Ups einbauen. Spezielle Früchte wie ein goldener Apfel, der mehr Punkte gibt oder die Schlange kurzzeitig unverwundbar macht.
-- [ ] Menü hinzufügen Start-, Pause- und Beenden-Buttons sowie eine Option zur Auswahl von Farben und Schwierigkeitsgraden und Fehler korrigeren.
-- [ ] Sound & Animationen ergänzen Essensgeräusche, Game-Over-Sound und eine Animation, wenn die Schlange wächst.
+- [x] Geschwindigkeit skalieren. Die Schlange wird mit steigendem Score schneller, um die Schwierigkeit zu erhöhen.
+- [x] Power-Ups einbauen. Spezielle Früchte wie ein goldener Apfel, der mehr Punkte gibt oder die Schlange kurzzeitig unverwundbar macht.
+- [x] Menü hinzufügen Start-, Pause- und Beenden-Buttons sowie eine Option zur Auswahl von Farben und Schwierigkeitsgraden und Fehler korrigeren.
+- [x] Erstmal alles reparieren das alles erfolgreich funktioniert.
+
+Ich habe heute mit dem Lehrer angeschaut den Code um alle Probleme zu beheben, letztendlich hat  es funktioniert. Danach hatte ich die Geschwindigkeit versucht zu machen und ist auch gut geklappt. Als nächstes habe ich goldenen Apfel noc reingemacht und es funktioniert menü habe ich auch gemacht und damit die  Schlange direkt wieder reinkommt von der anderen Seite.
 
 ## 4.4: Auspolieren & Abschluss
-
+- [ ] 
+- [ ] 
