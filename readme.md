@@ -74,12 +74,10 @@
 
 ## 04.04: Reflexion
 
-✍️In diesem Projekt habe ich ein Snake-Spiel mit Windows Form programmiert. Zu Beginn hatte ich grundlegende Funktionen wie die Bewegung der Schlange, das Einsammeln von Äpfeln und das Anzeigen des Punktestands eingebaut. Danach habe 
-  Ich ergänze neue Features, wie z. B. eine goldene Spezialfrucht, die mehr Punkte gibt und die Schlange unverwundbar macht. Besonders wichtig war mir, dass das Spiel nicht direkt vorbei ist, wenn man an den Rand kommt. Deshalb habe 
-  ich das sogenannte „Wrap Around“ eingebaut, bei dem die Schlange auf der anderen Seite wieder erscheint. Das war erst etwas schwer, aber am Ende hat es funktioniert. Der Gameover-Bildschirm mit einem Restart-Button war nochmal eine 
-  Schwierigkeit, weil die Elemente am Anfang nicht richtig angezeigt wurden. Mit ein paar Anpassungen konnte ich das aber lösen. Manchmal brauchte ich länger Zeit, bis ich die Fehler fand. Durch das Projekt habe ich gelernt, wie man ein 
-  Spiel logisch aufbaut, Gametimer verwendet und einfache Sachen wie Labels oder Buttons steuern kann. Insgesamt bin ich zufrieden, weil alles funktioniert und ich gute Veränderungen einbauen konnte. Am Ende konnte ich viele Probleme 
-  selbst lösen oder zumindest verstehen, wie man sie löst.
+✍️ In diesem Projekt habe ich ein Snake-Spiel mit Windows Forms programmiert. Anfangs hatte ich die Grundfunktionen wie Bewegung, Punktestand und das Einsammeln von Äpfeln eingebaut. Danach ergänzte ich neue Features, z. B. eine goldene 
+    Spezialfrucht, die mehr Punkte gibt und die Schlange kurzzeitig unverwundbar macht. Besonders wichtig war mir, dass das Spiel nicht sofort endet, wenn man an den Rand kommt. Deshalb habe ich „Wrap Around“ eingebaut, damit die 
+    Schlange auf der anderen Seite wieder erscheint. Der Game-Over-Bildschirm mit Restart war anfangs eine Herausforderung, aber ich konnte das Problem lösen. Durch das Projekt habe ich viel über den Aufbau eines Spiels, Gametimer, 
+    Steuerelemente wie Labels und Buttons gelernt. Ich bin zufrieden, weil alles funktioniert und ich viele Probleme selbst lösen konnte.
 
 
 
