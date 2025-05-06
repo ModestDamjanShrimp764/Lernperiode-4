@@ -1,0 +1,24 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SNAKE
+{
+    class Settings
+    {
+
+        public static int Width { get; set; } = 16;
+        public static int Height { get; set; } = 16;
+
+        public static string directions;
+
+        public Settings()
+        {
+            Width = 16;
+            Height = 16;
+            directions = "left";
+        }
+    }
+}
