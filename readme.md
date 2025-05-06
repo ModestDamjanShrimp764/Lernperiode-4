@@ -74,10 +74,17 @@
 
 ## 04.04: Reflexion
 
-✍️ In diesem Projekt habe ich ein Snake-Spiel mit Windows Forms programmiert. Anfangs hatte ich die Grundfunktionen wie Bewegung, Punktestand und das Einsammeln von Äpfeln eingebaut. Danach ergänzte ich neue Features, z. B. eine goldene 
-    Spezialfrucht, die mehr Punkte gibt und die Schlange kurzzeitig unverwundbar macht. Besonders wichtig war mir, dass das Spiel nicht sofort endet, wenn man an den Rand kommt. Deshalb habe ich „Wrap Around“ eingebaut, damit die 
+✍️ Das Projekt lief sehr gut ich bin mit meinem Ergebnis auch sehr zufrieden und würde gerne nochmal sowas machen nur leider haben wir jetzt die SQL Blöcke, die wir tun sollen. Ich freue mich darauf und ich hoffe das ich alles richtig 
+    erledigt habe.
+
+## fertiges Projekt
+  ✍️In diesem Projekt habe ich ein Snake-Spiel mit Windows Forms programmiert. Anfangs hatte ich die Grundfunktionen wie Bewegung, Punktestand und das Einsammeln von Äpfeln eingebaut. Danach ergänzte ich neue Features, z. B. eine 
+    goldene Spezialfrucht, die mehr Punkte gibt und die Schlange kurzzeitig unverwundbar macht. Besonders wichtig war mir, dass das Spiel nicht sofort endet, wenn man an den Rand kommt. Deshalb habe ich „Wrap Around“ eingebaut, damit die 
     Schlange auf der anderen Seite wieder erscheint. Der Game-Over-Bildschirm mit Restart war anfangs eine Herausforderung, aber ich konnte das Problem lösen. Durch das Projekt habe ich viel über den Aufbau eines Spiels, Gametimer, 
     Steuerelemente wie Labels und Buttons gelernt. Ich bin zufrieden, weil alles funktioniert und ich viele Probleme selbst lösen konnte.
+
+![06 05 25 GIF RICHTIG SNAKE AUFNAHME](https://github.com/user-attachments/assets/de43504a-b274-4331-bb8e-3cf695a8953a)
+
 
 
 
