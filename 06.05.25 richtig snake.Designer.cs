@@ -35,6 +35,8 @@
             this.txtScore = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.gametimer = new System.Windows.Forms.Timer(this.components);
+            this.Name = new System.Windows.Forms.TextBox();
+            this.RESTART = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -74,7 +76,7 @@
             // 
             this.txtScore.AutoSize = true;
             this.txtScore.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.txtScore.Location = new System.Drawing.Point(602, 180);
+            this.txtScore.Location = new System.Drawing.Point(602, 280);
             this.txtScore.Name = "txtScore";
             this.txtScore.Size = new System.Drawing.Size(68, 20);
             this.txtScore.TabIndex = 3;
@@ -84,7 +86,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label2.Location = new System.Drawing.Point(602, 217);
+            this.label2.Location = new System.Drawing.Point(602, 317);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 20);
             this.label2.TabIndex = 4;
@@ -94,11 +96,33 @@
             // 
             this.gametimer.Tick += new System.EventHandler(this.GameTimerEvent);
             // 
+            // Name
+            // 
+            this.Name.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.Name.Location = new System.Drawing.Point(595, 242);
+            this.Name.Name = "Name";
+            this.Name.Size = new System.Drawing.Size(135, 26);
+            this.Name.TabIndex = 5;
+            this.Name.Visible = false;
+            this.Name.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // RESTART
+            // 
+            this.RESTART.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.RESTART.Location = new System.Drawing.Point(595, 173);
+            this.RESTART.Name = "RESTART";
+            this.RESTART.Size = new System.Drawing.Size(108, 52);
+            this.RESTART.TabIndex = 6;
+            this.RESTART.Text = "RESTART";
+            this.RESTART.UseVisualStyleBackColor = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(742, 708);
+            this.Controls.Add(this.RESTART);
+            this.Controls.Add(this.Name);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.pictureBox1);
@@ -121,6 +145,8 @@
         private System.Windows.Forms.Label txtScore;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer gametimer;
+        private System.Windows.Forms.TextBox Name;
+        private System.Windows.Forms.Button RESTART;
     }
 }
 
